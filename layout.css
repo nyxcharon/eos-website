@@ -1,0 +1,233 @@
+/** BASIC */
+
+html, body {
+	height: 100%;
+}
+
+/** HEADER */
+
+#header {
+	width: 982px;
+	height: 119px;
+	margin: 0px auto;
+}
+
+/** LOGO */
+
+#logo {
+	float: left;
+	width: 491px;
+	height: 119px;
+	background: url(images/homepage02.jpg) no-repeat left top;
+}
+
+#logo h1 {
+	display: none;
+}
+
+/** SEARCH */
+
+#search {
+	float: right;
+	width: 343px;
+	height: 53px;
+	padding: 66px 0px 0px 148px;
+}
+
+/** MENU */
+
+#menu {
+	width: 982px;
+	height: 81px;
+	margin: 0px auto;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	padding: 22px 10px 25px 23px;
+	background: url(images/subpage1_02.jpg) no-repeat left top;
+}
+
+#menu li.first a {
+	padding-left: 70px;
+	background: none;
+}
+
+#menu span {
+}
+
+#menu1 {}
+#menu2 {}
+#menu3 {}
+#menu4 {}
+#menu5 {}
+#menu6 {}
+#menu7 {}
+#menu8 {}
+#menu9 {}
+
+/** CONTENT */
+
+#content {
+	width: 982px;
+	margin: 0px auto;
+}
+
+.subpage3 #content {
+	width: 902px;
+	padding: 0px 40px;
+}
+
+.content {
+	width: 500px;
+	margin-bottom: 20px;
+	padding: 10px 0px 0px 25px;
+}
+
+.subpage2 .content {
+	width: 675px;
+}
+
+.subpage3 .content {
+	width: 850px;
+}
+
+/** 3-COL LAYOUT */
+
+.three-cols {
+}
+
+.three-cols .colA {
+	float: left;
+	width: 176px;
+	padding: 0px 0px 0px 41px;
+}
+
+.three-cols .colB {
+	float: left;
+	width: 548px;
+}
+
+.three-cols .colC {
+	float: right;
+	width: 171px;
+	padding: 0px 41px 0px 0px;
+}
+
+/** 2-COL LAYOUT */
+
+.two-cols {
+}
+
+.two-cols .colA {
+	float: left;
+	width: 176px;
+	padding: 0px 0px 0px 41px;
+}
+
+.two-cols .colB {
+	float: left;
+	width: 742px;
+}
+
+/** FOOTER */
+
+#footer {
+	width: 982px;
+	height: 70px;
+	margin: 0px auto;
+	background: url(images/homepage06.jpg) no-repeat left top;
+}
+
+.subpage2 #footer {
+	background-image: url(images/subpage2_02.jpg);
+}
+
+.subpage3 #footer {
+	background-image: url(images/subpage3_02.jpg);
+}
+
+#footer p {
+	padding: 70px 0px;
+}
+
+/** BOX1 */
+
+#box1 {
+}
+
+/** BOX2 */
+
+#box2 {
+}
+
+/** BOX3 */
+
+#box3 {
+}
+
+/** BOX4 */
+
+#box4 {
+}
+
+/** BOX5 */
+
+#box5 {
+}
+
+/** BOX6 */
+
+#box6 {
+}
+
+/** BOX7 */
+
+#box7 {
+}
+
+#box7 .content {
+	float: left;
+	width: 230px;
+	padding: 10px 0px 0px 30px;
+}
+
+/** BOX8 */
+
+#box8 {
+	margin-bottom: 15px;
+}
+
+#box8 form {
+	padding: 0px 0px 0px 15px;
+}
+
+/** BOX9 */
+
+#box9 {
+	margin-bottom: 15px;
+}
+
+#box9 form {
+	padding: 0px 0px 0px 15px;
+}
+
+#box9 td {
+	padding-bottom: 10px;
+}
+
+/** BOX10 */
+
+#box10 {
+}
