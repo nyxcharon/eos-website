@@ -216,11 +216,11 @@ html, body {
 /** BOX9 */
 
 #box9 {
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 #box9 form {
-	padding: 0px 0px 0px 15px;
+	padding: 0px 5px 0px 10px;
 }
 
 #box9 td {
