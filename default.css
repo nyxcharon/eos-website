@@ -42,6 +42,19 @@ form {
 	color: #F2E8C9;
 }
 
+.input4 {
+	width: 54px;
+	height: 23px;
+	border: none;
+	background: url(images/homepage14.jpg) no-repeat left center;
+	font-size: 9px;
+	font-weight: bold;
+	color: #F2E8C9;
+	position: relative;
+	left: 50px;
+
+}
+
 /** HEADINGS */
 
 h1, h2, h3, h4, h5, h6 {
@@ -120,6 +133,15 @@ p, blockquote, ul, ol, dl {
 	text-align: center;
 	color: #676459;
 }
+
+.text9 {
+	font-size: 10px;
+	color: #CCCCC9;
+	margin-left: 0px;
+
+}
+
+
 
 /** LISTS */
 
