@@ -162,6 +162,27 @@ html, body {
 	padding: 70px 0px;
 }
 
+/**Box Top**/
+#boxTop {
+	width: 982px;
+	height: 70px;
+	margin: 0px auto;
+	background: url(images/boxTop.jpg) no-repeat left top;
+}
+
+.subpage2 #boxTop {
+	background-image: url(images/boxTop.jpg);
+}
+
+.subpage3 #boxTop {
+	background-image: url(images/boxTop.jpg);
+}
+
+#boxTop p {
+	padding: 70px 0px;
+}
+
+
 /** BOX1 */
 
 #box1 {

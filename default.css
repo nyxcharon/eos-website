@@ -226,9 +226,15 @@ a:hover {
 
 .bg1 { background: url(images/homepage03.jpg) no-repeat left top; }
 .bg2 { background: url(images/homepage04.jpg) no-repeat left top; }
-.bg3 { background: url(images/homepage05.jpg) repeat-y left top; }
+.bg3 {background: url(images/homepage05.jpg) repeat-y left top; }
 .subpage2 .bg3 { background-image: url(images/subpage2_01.jpg); }
 .subpage3 .bg3 { background-image: url(images/subpage3_01.jpg); }
+.bg4 {
+     
+      background-color:rgba(255,0,0,0.5);
+}
+.subpage2 .bg4 {       background-color:rgba(255,0,0,0);}
+.subpage3 .bg4 {       background-color:rgba(255,0,0,0);}
 
 /** MISC */
 
