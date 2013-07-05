@@ -37,6 +37,7 @@ html, body {
 #searchLinks{
     position:relative;
     left: 160px;
+    top: 15px;
 }
 /** MENU */
 
