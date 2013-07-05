@@ -30,10 +30,14 @@ html, body {
 #search {
 	float: right;
 	width: 343px;
-	height: 53px;
-	padding: 66px 0px 0px 148px;
+	height: 120px;
+	padding: 0px 0px 0px 148px;
 }
 
+#searchLinks{
+    position:relative;
+    left: 160px;
+}
 /** MENU */
 
 #menu {
