@@ -49,16 +49,21 @@
 	<div id="boxTop"></div>
 	<div id="content" class="bg3">
 	  <div id="box6">
-	    <h2 class="text2">Login</h2>
+	    
 	    <div class="content">
 	      <h3 class="text3"></h3>
-	         <form style="text-align:center" id="form1" name="form1" method="post" action="">
-		   Username<br>
-                   <input type="text" name="textfield" class="input1" style="width: 120px;" align="right"; /><br>
-		   Password<br>
-		   <input type="password" name="textfield" class="input1" style="width: 120px;" align="right"; /><br><br>
-                   <input type="submit" name="Login" value="Login" class="input2" />
-                 </form>
+	      <section class="login">
+		<div class="titulo">Login</div>
+		<form action="#" method="post" enctype="application/x-www-form-urlencoded">
+		  <input type="text" required title="Username required" placeholder="Username" data-icon="U">
+		    <input type="password" required title="Password required" placeholder="Password" data-icon="x">
+		      <div class="olvido">
+			<div class="col"><a href="register.html" title="Register">Register</a></div>
+			<div class="col"><a href="#" title="Forgot Password">Forgot Password?</a></div>
+		      </div>
+		      <a href="#" class="enviar">Submit</a>
+		    </form>
+		  </section>
 	    </div>
 	  </div>
 	  <div style="clear: both;">&nbsp;</div>
