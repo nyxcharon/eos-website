@@ -387,11 +387,11 @@ table {
     border-spacing: 0;
 }
 
-/* Registration box8*/
+/* Registration box*/
 
 .register {
     width: 350px;
-    height: 440px;
+    height: 580px;
     overflow: hidden;
     background: #1e1e1e;
     border-radius: 6px;
@@ -444,6 +444,7 @@ table {
     border-bottom-right-radius: 6px;
     border-top: #0b0b0b solid 1px;
     background: #141414 url(http://dev.dhenriquez.com/test-img/icons/111-user.png) 10px center no-repeat;
+    margin-bottom: 30px;
 }
 
 .register form input[type=password] {
@@ -452,8 +453,8 @@ table {
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     border-top: #0b0b0b 1px solid;
-    
     background: #141414 url(http://dev.dhenriquez.com/test-img/icons/54-lock.png) 10px center no-repeat;
+    margin-bottom: 30px;
 }
 
 .register form .enviar {
