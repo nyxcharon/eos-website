@@ -1,7 +1,29 @@
 <?php
-if (isset($_POST['username'])) 
-   $name = $_POST['username'];
-else $name = "Username";
+$sessionActive = (session_status() == PHP_SESSION_ACTIVE);
+$name="Username"
+$email="Email"
+$password="somePassword"
+$password2="somePassword2"
+$gameKey="Alpha Key"
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') 
+{
+   if (isset($_POST["username"])) 
+   $name = $_POST["username"];
+
+   if (isset($_POST["email"])) 
+   $name = $_POST["email"];
+
+   if (isset($_POST["password"])) 
+   $name = $_POST["password"];
+
+   if (isset($_POST["password2"])) 
+   $name = $_POST["password2"];
+   
+   if (isset($_POST["gameKey"])) 
+   $name = $_POST["gameKey"];
+}
+
 
 echo <<<_END
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -84,4 +106,34 @@ echo <<<_END
       </body>
     </html>
 _END;
+
+function clean()
+{
+
+
+}
+
+function verifyPassword()
+{
+
+
+}
+
+function userExist()
+{
+
+
+}
+
+function validKey()
+{
+
+}
+
+function verifyEmail()
+{
+
+
+}
+
 ?>
