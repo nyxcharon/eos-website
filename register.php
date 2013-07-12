@@ -22,6 +22,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
    
    if (isset($_POST["gameKey"])) 
    $gameKey = $_POST["gameKey"];
+echo <<<_END
+<html>
+<body>
+echo $name
+echo $email
+echo $password
+echo $password2
+echo $gameKey
+</body>
+</html>
+_END;
 }
 echo <<<_END
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -92,10 +103,10 @@ echo <<<_END
 		<form action="register.php" method="post">
 		  <input type="text" name="username" required title="Username required" placeholder=$name data-icon="U">
 		  <input type="text" name="email" required title="Email required" placeholder=$email data-icn="U">
-		  <input type="password" name="password" required title="Password required" placeholder=$password data-icon="x">
-		  <input type="password" name="password2" required title="Password required" placeholder=$password2 data-icon="x">
+		  <input type="password" name="password" required title="Password required" placeholder="Password" data-icon="x">
+		  <input type="password" name="password2" required title="Password required" placeholder="Password (Again)" data-icon="x">
 		  <input type="text" name="alpha" required title="Alpha Key" placeholder=$gameKey data-icn="U">
-		  <a href="register.php" type="submit" class="enviar">Register</a>
+		  <input type="submit" class="enviar" name="Register">
 		  <div class="olvido">
 		     <div class="col"><a href="login.html" title="Login">Login</a></div>
 		     <div class="col"><a href="forgot.html" title="Forgot Password">Forgot Password?</a></div>
