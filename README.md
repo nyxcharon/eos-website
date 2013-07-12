@@ -4,4 +4,4 @@ eos-website
 Embers of Solace website code.
 
 For more, visit:
-[Embers Of Solace](www.embersofsolace.com)
+<a href="www.embersofsolace.com">Embers of Solace</a>
