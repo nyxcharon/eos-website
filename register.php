@@ -89,13 +89,10 @@ echo <<<_END
 	<li><a href="#" id="menu7" accesskey="2" title="" class="link1"><span></span></a></li>
       </ul>
     </div>
-    <br>
-      <br>
-
+    <br><br>	
 	<div id="boxTop"></div>
 	<div id="content" class="bg3">
-	  <div id="box6">
-	    
+	  <div id="box6">	    
 	    <div class="content">
 	      <h3 class="text3"></h3>
 	      <section class="register">
