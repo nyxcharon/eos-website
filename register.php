@@ -22,17 +22,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
    
    if (isset($_POST["gameKey"])) 
    $gameKey = $_POST["gameKey"];
-echo <<<_END
-<html>
-<body>
-echo $name
-echo $email
-echo $password
-echo $password2
-echo $gameKey
-</body>
-</html>
-_END;
 }
 echo <<<_END
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
