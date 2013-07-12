@@ -64,7 +64,7 @@ if ($sessionActive){
 }
 else{
     echo '<a href="login.html" id="menu3" accesskey="3" title="" class="link1"><span>Login  | </span></a>';
-         echo '<a href="#" id="menu3" accesskey="3" title="" class="link1"><span>Register</span></a>';
+         echo '<a href="register.php" id="menu3" accesskey="3" title="" class="link1"><span>Register</span></a>';
 }
 echo <<<_END
 	</div>
