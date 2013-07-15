@@ -1,3 +1,25 @@
+<?php
+
+include 'db_connect.php';
+include 'functions.php';
+sec_session_start(); 
+ 
+if(isset($_POST['email'], $_POST['p'])) { 
+    $email = $_POST['email'];
+    $password = $_POST['p']; 
+    if(login($email, $password, $mysqli) == true) {
+        // Login success
+        echo 'Success: You have been logged in!';
+    } else {
+        // Login failed
+        header('Location: ./login.php?error=1');
+    }
+} else { 
+    // The correct POST variables were not sent to this page.
+    echo 'Invalid Request';
+}
+
+echo <<<_END
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
@@ -75,3 +97,5 @@
 	
       </body>
     </html>
+_END;
+?>

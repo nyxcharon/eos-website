@@ -121,34 +121,5 @@ echo <<<_END
       </body>
     </html>
 _END;
-    
-function clean()
-{
-
-
-}
-
-function verifyPassword()
-{
-
-
-}
-
-function userExist()
-{
-
-
-}
-
-function validKey()
-{
-
-}
-
-function verifyEmail()
-{
-
-
-}
 
 ?>
