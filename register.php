@@ -1,39 +1,11 @@
 <?php
-$sessionActive = (session_status() == PHP_SESSION_ACTIVE);
+#$sessionActive = (session_status() == PHP_SESSION_ACTIVE);
 $name="Username";
 $email="Email";
 $password="Password";
 $password2="Password(Again)";
 $gameKey="Alpha-Key";
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') 
-{
-   if (isset($_POST["username"])) 
-   $name = $_POST["username"];
-
-   if (isset($_POST["email"])) 
-   $email = $_POST["email"];
-
-   if (isset($_POST["password"])) 
-   $password = $_POST["password"];
-
-   if (isset($_POST["password2"])) 
-   $password2 = $_POST["password2"];
-   
-   if (isset($_POST["gameKey"])) 
-   $gameKey = $_POST["gameKey"];
-echo <<<_END
-<html>
-<body>
-echo $name
-echo $email
-echo $password
-echo $password2
-echo $gameKey
-</body>
-</html>
-_END;
-}
 echo <<<_END
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -59,11 +31,11 @@ echo <<<_END
 _END;
 
 if ($sessionActive){
-    echo '<a href="login.html" id="menu3" accesskey="3" title="" class="link1"><span>My Account  | </span></a>';
+    echo '<a href="login.php" id="menu3" accesskey="3" title="" class="link1"><span>My Account  | </span></a>';
         echo '<a href="#" id="menu3" accesskey="3" title="" class="link1"><span>Logout</span></a>';
 }
 else{
-    echo '<a href="login.html" id="menu3" accesskey="3" title="" class="link1"><span>Login  | </span></a>';
+    echo '<a href="login.php" id="menu3" accesskey="3" title="" class="link1"><span>Login  | </span></a>';
          echo '<a href="register.php" id="menu3" accesskey="3" title="" class="link1"><span>Register</span></a>';
 }
 echo <<<_END

@@ -1,8 +1,8 @@
 <?php
 
 include 'db_connect.php';
-include 'functions.php';
-sec_session_start(); 
+#include 'functions.php';
+#sec_session_start(); 
  
 if(isset($_POST['email'], $_POST['p'])) { 
     $email = $_POST['email'];
@@ -14,9 +14,6 @@ if(isset($_POST['email'], $_POST['p'])) {
         // Login failed
         header('Location: ./login.php?error=1');
     }
-} else { 
-    // The correct POST variables were not sent to this page.
-    echo 'Invalid Request';
 }
 
 echo <<<_END
@@ -41,7 +38,7 @@ echo <<<_END
       </div>
      <div id="search" class="bg1">
 	<div id="searchLinks">
-	   <a href="login.html" id="menu3" accesskey="3" title="" class="link1"><span>Login  | </span></a>
+	   <a href="login.php" id="menu3" accesskey="3" title="" class="link1"><span>Login  | </span></a>
 	   <a href="register.php" id="menu3" accesskey="3" title="" class="link1"><span>Register</span></a>
 	</div>
 	<form id="form1" name="form1" method="post" action="">
