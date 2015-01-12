@@ -1,10 +1,4 @@
 <?php
-#$sessionActive = (session_status() == PHP_SESSION_ACTIVE);
-$name="Username";
-$email="Email";
-$password="Password";
-$password2="Password(Again)";
-$gameKey="Alpha-Key";
 
 echo <<<_END
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -30,21 +24,11 @@ echo <<<_END
 	<div id="searchLinks">
 _END;
 
-if ($sessionActive){
-    echo '<a href="login.php" id="menu3" accesskey="3" title="" class="link1"><span>My Account  | </span></a>';
-        echo '<a href="#" id="menu3" accesskey="3" title="" class="link1"><span>Logout</span></a>';
-}
-else{
-    echo '<a href="login.php" id="menu3" accesskey="3" title="" class="link1"><span>Login  | </span></a>';
-         echo '<a href="register.php" id="menu3" accesskey="3" title="" class="link1"><span>Register</span></a>';
-}
 echo <<<_END
 	</div>
 	<form id="form1" name="form1" method="post" action="">
 	    <table width="269" height="150" border="0" cellspacing="0" cellpadding="0">
 	       <tr>
-		  <td><input type="text" name="textfield" class="input1" style="width: 186px;" /></td>
-		  <td align="right"><input type="submit" name="Submit" value="Search" class="input2" /></td>
 	       </tr>
 	    </table>
 	 </form>
@@ -68,8 +52,8 @@ echo <<<_END
 	    <div class="content">
 	      <h3 class="text3"></h3>
 	      <section class="register">
-		<div class="titulo">Register an Account</div>
-		<form action="register.php" method="post">
+		<div class="titulo">Register an Account (Currently Disabled)</div>
+		<form action="register.php">
 		  <input type="text" name="username" required title="Username required" placeholder=$name data-icon="U">
 		  <input type="text" name="email" required title="Email required" placeholder=$email data-icn="U">
 		  <input type="password" name="password" required title="Password required" placeholder="Password" data-icon="x">
